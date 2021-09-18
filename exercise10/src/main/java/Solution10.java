@@ -1,17 +1,23 @@
+/*
+ *  UCF COP3330 Fall 2021 Assignment 2 Solution
+ *  Copyright 2021 Gialam Tran
+ */
 import java.util.Scanner;
 
 public class Solution10 {
     public static void main(String[] args){
         /*
-        Enter the price of item 1: 25
-        Enter the quantity of item 1: 2
-        Enter the price of item 2: 10
-        Enter the quantity of item 2: 1
-        Enter the price of item 3: 4
-        Enter the quantity of item 3: 1
-        Subtotal: $64.00
-        Tax: $3.52
-        Total: $67.52
+        Add every item when asked
+        Add number of items
+            Enter the price of item
+            Enter the quantity of item 1
+            Enter the price of item 2
+            Enter the quantity of item 2
+            Enter the price of item 3
+            Enter the quantity of item 3
+        Calculate tax
+        Calculate total
+        Print Subtotal, Tax, Number of items.
          */
         Scanner input = new Scanner(System.in);
 

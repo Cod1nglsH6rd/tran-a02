@@ -1,8 +1,23 @@
-import java.util.Objects;
+/*
+ *  UCF COP3330 Fall 2021 Assignment 2 Solution
+ *  Copyright 2021 Gialam Tran
+ */
 import java.util.Scanner;
 
 public class Solution14 {
     public static void main(String[] args) {
+
+        /*
+        Ask for an order amount
+            Input = cost
+        Ask for the State
+            Input = State
+        If (State = WI)
+            Add tax to it
+            Print subtotal and tax
+        Calculate the total cost
+        Print out the total
+         */
 
         Scanner input = new Scanner(System.in);
 
@@ -11,7 +26,7 @@ public class Solution14 {
 
         System.out.println("What is the state?");
 
-        input.nextLine(); //Consume nexline
+        input.nextLine(); //Consume nextline
         String state = input.nextLine();
         
         double tax = 0;

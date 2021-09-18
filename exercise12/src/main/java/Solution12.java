@@ -1,7 +1,21 @@
+/*
+ *  UCF COP3330 Fall 2021 Assignment 2 Solution
+ *  Copyright 2021 Gialam Tran
+ */
 import java.util.Scanner;
 
 public class Solution12 {
     public static void main(String[] args) {
+        /*
+        Ask for principal
+            Input = principal
+        Ask for rate of interest
+            Input = rate
+        Ask for years
+            Input = years
+        Calculate the end of the year investment
+        Print
+         */
         Scanner input = new Scanner(System.in);
 
         System.out.println("Enter the principal: ");
