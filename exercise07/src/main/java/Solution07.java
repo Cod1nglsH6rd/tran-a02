@@ -1,3 +1,7 @@
+/*
+ *  UCF COP3330 Fall 2021 Assignment 2 Solution
+ *  Copyright 2021 Gialam Tran
+ */
 import java.util.Scanner;
 
 public class Solution07 {
@@ -8,11 +12,8 @@ public class Solution07 {
         Print "What is the width of the room in feet?"
             Input = width
         Print "You entered dimensions of *length* feet by *width* feet."
-
         area = length * width
-
         meters = area * 0.09290304
-
         Print"The area is"
             Print "*area* square feet"
             Print "*meters* square meters"
@@ -34,6 +35,6 @@ public class Solution07 {
 
         System.out.println(area + " square feet");
 
-        System.out.printf("%.3f square feet", meters);
+        System.out.printf("%.3f square meter", meters);
     }
 }
